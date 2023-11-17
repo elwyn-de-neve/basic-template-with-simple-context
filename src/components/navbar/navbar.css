@@ -1,0 +1,30 @@
+.navbar {
+    background-color: var(--clr-primary);
+    padding: 16px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar__list {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.navbar__item {
+    list-style: none;
+}
+
+.navbar__item > a {
+    text-decoration: none;
+    color: var(--clr-white);
+}
+
+.navbar__item > a:hover {
+    color: var(--clr-tertiary);
+}
+
+.navbar__item > a.active {
+    color: var(--clr-tertiary);
+}
